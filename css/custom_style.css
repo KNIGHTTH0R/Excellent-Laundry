@@ -1,0 +1,347 @@
+    #popup-bg {
+        background: #000 none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        opacity: 0.5;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9998;
+    }
+
+    #popup-container {
+        left: 0;
+        margin-top: 0;
+        position: fixed;
+        text-align: center;
+        top: 10%;
+        width: 100%;
+        z-index: 9999;
+        padding-top: 15%;
+    }
+
+    #popup-container.form_field_popup {
+        position: absolute;
+        text-align: left;
+    }
+
+    .form_field_popup .popup-option .popup_text {
+        max-height: none;
+        overflow: visible;
+    }
+
+    #popup-bg.white-bg {
+        background: #fff none repeat scroll 0 0;
+    }
+
+    .popup {
+        background: #fff none repeat scroll 0 0;
+        border-radius: 8px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        position: relative;
+        text-align: left;
+        width: 400px;
+    }
+
+    .popup h5 {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .popup p a {
+        background-color: #e07500;
+        border: 0 none;
+        color: #fff;
+        font: 14px/20px Arial, Helvetica, sans-serif;
+        height: 25px;
+        margin-left: 1px;
+        min-width: 105px;
+        padding-bottom: 2px;
+    }
+
+    .popup_text {
+        margin: 0 0 25px;
+        color: white;
+    }
+
+    .popup_text h1 {
+        margin: 0 0 15px;
+    }
+
+    .popup_text h4 {
+        color: white;
+    }
+
+    .pointer_link {
+        cursor: pointer;
+    }
+
+    .table > tbody > tr > td.active_status {
+        padding-top: 15px;
+    }
+
+    div.checker span {
+        margin-top: 10px;
+    }
+
+    .pickmeup {
+        z-index: 999
+    }
+
+    #prodimg {
+        display: none
+    }
+
+    .upload-prodimg {
+        height: 35px
+    }
+
+    .sec-head h4 {
+        font-weight: bold
+    }
+
+    .product-thumb {
+        width: 150px;
+        height: auto
+    }
+
+    .product_colors {
+        padding: 2px;
+        margin-right: 3px;
+        margin-top: 3px;
+        border-radius: 3px
+    }
+
+    .page-header.navbar .page-logo .logo-default {
+        width: 145px
+    }
+
+    .glyphicon-chevron-right {
+        color: #a0b8c9;
+        float: right
+    }
+
+    #prod-description .static-info .col-md-4:first-child,
+    #prod-description .static-info .col-md-3:first-child {
+        text-align: right;
+        font-weight: 700
+    }
+
+    #prod-description .static-info .col-md-8:first-child {
+        font-weight: 700
+    }
+
+    #prod-description h4 {
+        font-weight: 700
+    }
+
+    #prod-description .static-info .col-md-3.notdark, #prod-description .static-info .col-md-3.detsec {
+        font-weight: 400;
+        text-align: left
+    }
+
+    .detsec {
+        padding: 8px;
+    }
+
+    .text-info span {
+        color: #485a6a
+    }
+
+    .empty {
+        color: red
+    }
+
+    .labelthumb {
+        margin-top: 10px
+    }
+
+    .portlet > .portlet-body > .labelthumb > p {
+        margin-bottom: 0px
+    }
+
+    .label-success.pending {
+        color: #fff
+    }
+
+    .form-horizontal .control-label.editorder {
+        text-align: left
+    }
+
+    .assoc-cust span {
+        font-weight: 400;
+        margin-left: 10px
+    }
+
+    .wrong-cred {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .modal-dialog.editorder-dialogue {
+        width: 800px
+    }
+
+    .form-horizontal h4.mobile-ver1 {
+        text-align: left
+    }
+
+    .add-order-form {
+        display: none
+    }
+
+    #add-order-values-ajax {
+        padding: 10px
+    }
+
+    td, th {
+        word-wrap: break-word;
+    }
+
+    #page_content .search-page .search-bar button.btn.reposearch {
+        min-width: auto;
+    }
+
+    #reg-label {
+        position: relative;
+        top: 10px;
+        bottom: auto;
+    }
+
+    #page_content .search-page .search-bar input {
+        height: auto;
+    }
+
+    #page_content .search-page .search-bar button {
+        height: 41px;
+        min-width: 131px;
+        width: auto;
+    }
+
+    #page_content .search-page .search-bar {
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .search_button {
+        min-width: 50px !important;
+        margin-top: 20px !important;
+        background-color: #3598dc;
+        border-color: #3598dc;
+        border: none;
+        border-radius: 2px;
+    }
+
+    .product-details {
+        text-decoration: underline;
+    }
+
+    .product-image {
+        max-width: 70px;
+    }
+
+    .status {
+        margin-top: 5px
+    }
+
+    .custom_hide {
+        display: none
+    }
+
+    .table_input {
+        width: 50px;
+
+    }
+
+    .custom {
+        margin: 10px;
+    }
+
+    .search-button {
+        margin-top: 30px;
+    }
+
+    .error {
+        color: red;
+        display: none;
+    }
+
+    td.action-col, .customer-run-slot table tr th, .customer-run-slot .table tbody tr td span {
+        white-space: nowrap
+    }
+
+    td.action-col .btn {
+        padding: 7px
+    }
+
+    .customer-list table tr td a.btn.blue {
+        line-height: 1em
+    }
+
+    .customer-run-slot .table thead tr th, .customer-run-slot .table tbody tr td {
+        font-size: 13px
+    }
+
+    .add-ord-prod-err .error {
+        text-align: center;
+        margin: 0px
+    }
+    @media (max-width: 800px) {
+        .modal-dialog.editorder-dialogue {
+            width: auto
+        }
+    }
+
+    @media (max-width: 980px) {
+        .breadcrumb {
+            display: none
+        }
+
+        #prod-description .static-info .col-md-4:first-child, #prod-description .static-info .col-md-3:first-child {
+            text-align: left;
+        }
+
+        .mobile-ver {
+            float: left
+        }
+
+        .btn.btn-sm.del-mobile-ver, .save-new-ord-prd {
+            margin-top: 10px
+        }
+
+        #reg-label {
+            top: auto;
+            bottom: 5px
+        }
+    }
+
+    @media (max-width: 640px) {
+        .page-header.navbar .page-logo .logo-default {
+            width: 152px
+        }
+
+        .control-label.save-new-ord-prd-xs {
+            margin-top: 10px
+        }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 980px) {
+        .mobile-ver2 {
+            float: left
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 980px) {
+        .tab-clear {
+            clear: both
+        }
+
+        .save-new-ord-prd-sm {
+            margin-top: 10px
+        }
+    }
